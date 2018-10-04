@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Delv_Admin</string>
+    <string name="app_name">Delv (Admin)</string>
+    <string name="app_name_absolute">Delv</string>
 </resources>
