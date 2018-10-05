@@ -6,8 +6,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
@@ -36,7 +34,6 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     private void initializeViews() {
-        Glide.with(getApplicationContext()).load(R.drawable.price_tag).into(splashLogoImageView);
     }
 
     @Override
